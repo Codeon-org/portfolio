@@ -45,12 +45,12 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::
 ::
 
-::div{class="h-36"}
+::div{class="h-20 md:h-36"}
 ::
 
 <h2>Things I've Created So Far <i class="text-gray-500 text-base">(That I’m Willing to Show)</i></h2>
 
-::card-group{cols=4}
+::card-group{cols=2}
   ::card
   ---
   icon: 'lucide:notebook-pen'
@@ -98,3 +98,34 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
 
 :read-more{title="Discover more of my projects" to="#" icon="lucide:rocket"}
 
+::div{class="h-20 md:h-36"}
+::
+
+## Quick Links
+
+::card-group{cols=3}
+  ::card
+  ---
+  title: Projects
+  description: "Discover a collection of my recent projects showcasing my skills, creativity, and the solutions I’ve built"
+  horizontal: true
+  to: "#"
+  ---
+  ::
+
+  ::card
+  ---
+  title: Tools
+  description: "Explore my collection of tools and utilities designed to enhance your workflow."
+  to: "#"
+  ---
+  ::
+
+  ::card
+  ---
+  title: My Life
+  description: "A glimpse into my life, interests, and the things that inspire me outside of coding."
+  to: "#"
+  ---
+  ::
+::
