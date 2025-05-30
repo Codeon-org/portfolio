@@ -1,0 +1,13 @@
+[*]
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+tab_width = 4
+trim_trailing_whitespace = true
+charset = utf-8
+insert_final_newline = true
+max_line_length = 999
+
+[*.md]
+indent_size = 2
+tab_width = 2

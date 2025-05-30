@@ -1,31 +1,100 @@
 ---
-title: Home
+title: Lending
 navigation: false
 ---
 
 ::hero
 ---
-announcement:
-  title: 'Release v1'
-  icon: '🎉'
-  to: https://shadcn-docs-nuxt.vercel.app/blog/v1
-  target: _blank
 actions:
-  - name: Documentation
+-   name: Explore
+    leftIcon: 'lucide:telescope'
     to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
-  - name: GitHub
+-   name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/MrAnyx
     leftIcon: 'lucide:github'
 ---
 
 #title
-Welcome to shadcn-docs-nuxt
+Hi, I'm Robin — Software Engineer & Problem Solver
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+_A curated collection of my projects, skills, and experiences. Built with care, designed to scale, and proudly open-source._
 ::
 
-::div{class="border rounded-lg shadow-md"}
-  :iframe{src="https://shadcn-docs-nuxt.vercel.app/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
+::card-group{cols=3}
+  ::card
+  ---
+  title: "Powered by Curiosity"
+  ---
+  **I question everything**—APIs, algorithms, even the naming of variables. **Curiosity** doesn't kill cats in my world; it ships features and writes tests. Side effects may include deep dives into RFCs and unexplained tabs in Chrome.
+  ::
+
+  ::card
+  ---
+  title: "Knowledge Has No Expiration Date"
+  ---
+  **I love sharing** what I learn—whether it's code, tips, or weird bugs that became features. If it helps someone else level up, it's a win. Warning: May spontaneously start screen-sharing.
+  ::
+
+  ::card
+  ---
+  title: "Clean Code, Clear Mind"
+  ---
+  **I'm a minimalist** who believes less is more—even when it comes to caffeine. **No coffee needed to ship clean**, scalable code (just willpower and maybe some toast). **Runs on water**, curiosity, and occasional sarcasm.
+  ::
 ::
+
+::div{class="h-36"}
+::
+
+<h2>Things I've Created So Far <i class="text-gray-500 text-base">(That I’m Willing to Show)</i></h2>
+
+::card-group{cols=4}
+  ::card
+  ---
+  icon: 'lucide:notebook-pen'
+  to: "https://needlify.com/?ref=codeon.fr"
+  target: "_blank"
+  show-link-icon: true
+  title: "Needlify"
+  ---
+  Discover expert-driven **tech tutorials**, **development guides**, and curated insights on Needlify — your go-to **hub for practical programming solutions** and **cutting-edge tools**.
+  ::
+
+  ::card
+  ---
+  icon: "lucide:brain"
+  to: "https://meeio.fr/?ref=codeon.fr"
+  target: "_blank"
+  show-link-icon: true
+  title: "Meeio"
+  ---
+  Meeio is a sleek web app that uses **FSRS 4.5 spaced repetition** to help you **learn and remember better**. **Group**, **categorize**, and **customize** your decks to master any topic—**faster and smarter**.
+  ::
+
+  ::card
+  ---
+  icon: "lucide:file-plus"
+  to: "https://meeio.fr/?ref=codeon.fr"
+  target: "_blank"
+  show-link-icon: true
+  title: "Note Batcher"
+  ---
+  Tired of red links cluttering your Obsidian vault? Note Batcher **creates all unresolved links** in **one click**—saving you time, boosting organization, and keeping your ideas flowing.
+  ::
+
+  ::card
+  ---
+  icon: "lucide:image"
+  to: "https://meeio.fr/?ref=codeon.fr"
+  target: "_blank"
+  show-link-icon: true
+  title: "FFmpeg Converter"
+  ---
+  Shrink your vault by **up to 70%** by **converting images**, **videos**, and **audio** into smaller formats using **FFmpeg** — all from within **Obsidian**. Supports **rollback** and **customization**. Clean vault, same content.
+  ::
+::
+
+:read-more{title="Discover more of my projects" to="#" icon="lucide:rocket"}
+

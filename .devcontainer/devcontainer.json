@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-    "name": "Node.js & TypeScript",
+    "name": "Portfolio",
     // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
     "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
     "features": {
@@ -15,29 +15,16 @@
     },
     "customizations": {
         "vscode": {
-            "extensions": [
-                "EditorConfig.EditorConfig",
-                "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode",
-                "Vue.volar",
-                "Nuxtr.nuxtr-vscode",
-                "Nuxt.mdc"
-            ],
+            "extensions": ["EditorConfig.EditorConfig", "esbenp.prettier-vscode", "Vue.volar", "Nuxtr.nuxtr-vscode", "Nuxt.mdc"],
             "settings": {
-                "[javascript][typescript][vue]": {
-                    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-                    "editor.formatOnSave": false
-                },
-                "[css][scss][sass][less][json][jsonc][yaml][markdown]": {
-                    "editor.formatOnSave": true,
-                    "editor.defaultFormatter": "esbenp.prettier-vscode"
-                },
-                "eslint.validate": ["javascript", "typescript", "vue"],
-                "eslint.useFlatConfig": true,
-                "editor.codeActionsOnSave": {
-                    "source.fixAll": "never",
-                    "source.fixAll.eslint": "explicit",
-                    "source.organizeImports": "never"
+                "editor.defaultFormatter": "esbenp.prettier-vscode",
+                "editor.formatOnSave": true,
+                "mdc.enableComponentMetadataCompletions": true,
+                "mdc.enableFormatting": false,
+                "[mdc][markdown]": {
+                    "editor.formatOnSave": false,
+                    "editor.formatOnPaste": false,
+                    "editor.formatOnType": false
                 }
             }
         }
