@@ -107,7 +107,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::card
   ---
   title: Projects
-  description: "Discover a collection of my recent projects showcasing my skills, creativity, and the solutions I’ve built"
+  description: "Discover a collection of my recent projects showcasing my skills, creativity, and the solutions I've built"
   horizontal: true
   to: "#"
   ---
