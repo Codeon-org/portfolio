@@ -6,13 +6,13 @@ navigation: false
 ::hero
 ---
 actions:
--   name: Explore
-    leftIcon: 'lucide:telescope'
-    to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
--   name: GitHub
-    variant: outline
-    to: https://github.com/MrAnyx
-    leftIcon: 'lucide:github'
+ - name: Explore
+   leftIcon: 'lucide:telescope'
+   to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
+ - name: GitHub
+   variant: outline
+   to: https://github.com/MrAnyx
+   leftIcon: 'lucide:github'
 ---
 
 #title
@@ -54,7 +54,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::card
   ---
   icon: 'lucide:notebook-pen'
-  to: "https://needlify.com/?ref=codeon.fr"
+  to: "#"
   target: "_blank"
   show-link-icon: true
   title: "Needlify"
@@ -65,7 +65,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::card
   ---
   icon: "lucide:brain"
-  to: "https://meeio.fr/?ref=codeon.fr"
+  to: "#"
   target: "_blank"
   show-link-icon: true
   title: "Meeio"
@@ -76,7 +76,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::card
   ---
   icon: "lucide:file-plus"
-  to: "https://meeio.fr/?ref=codeon.fr"
+  to: "#"
   target: "_blank"
   show-link-icon: true
   title: "Note Batcher"
@@ -87,7 +87,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::card
   ---
   icon: "lucide:image"
-  to: "https://meeio.fr/?ref=codeon.fr"
+  to: "#"
   target: "_blank"
   show-link-icon: true
   title: "FFmpeg Converter"
@@ -96,7 +96,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::
 ::
 
-:read-more{title="Discover more of my projects" to="#" icon="lucide:rocket"}
+:read-more{title="My Projects" to="#" icon="lucide:rocket"}
 
 ::div{class="h-20 md:h-36"}
 ::
@@ -123,7 +123,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
 
   ::card
   ---
-  title: My Life
+  title: Life
   description: "A glimpse into my life, interests, and the things that inspire me outside of coding."
   to: "#"
   ---
