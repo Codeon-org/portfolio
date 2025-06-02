@@ -45,8 +45,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::
 ::
 
-::div{class="h-20 md:h-36"}
-::
+:spacer
 
 <h2>Things I've Created So Far <i class="text-gray-500 text-base">(That I’m Willing to Show)</i></h2>
 
@@ -98,8 +97,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
 
 :read-more{title="My Projects" to="#" icon="lucide:rocket"}
 
-::div{class="h-20 md:h-36"}
-::
+:spacer
 
 ## Quick Links
 
