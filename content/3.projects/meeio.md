@@ -1,12 +1,8 @@
 ---
 title: Meeio
-description: Hello World
+description: shadcn-docs-nuxt is a Nuxt documentation template built with Nuxt Content and shadcn-vue.
 icon: lucide:brain
 badges:
-  - value: Website
-    icon: lucide:external-link
-    to: https://meeio.fr?ref=codeon.fr
-    target: _blank
   - value: Source
     icon: lucide:github
     to: https://github.com/meeio-app

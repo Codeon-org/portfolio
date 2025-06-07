@@ -1,0 +1,4 @@
+title: Obsidian Plugins
+icon: simple-icons:obsidian
+navigation.redirect: /obsidian/node-batcher
+collapse: true

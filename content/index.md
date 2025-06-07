@@ -8,7 +8,7 @@ navigation: false
 actions:
  - name: Explore
    leftIcon: 'lucide:telescope'
-   to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
+   to: /experiences
  - name: GitHub
    variant: outline
    to: https://github.com/MrAnyx

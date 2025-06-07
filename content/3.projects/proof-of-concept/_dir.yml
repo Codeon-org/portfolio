@@ -1,0 +1,4 @@
+title: Proof of Concept
+icon: lucide:flask-conical
+navigation.redirect: /projects/introduction
+collapse: true
