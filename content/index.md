@@ -1,5 +1,5 @@
 ---
-title: Lending
+title: Landing
 navigation: false
 ---
 
@@ -95,7 +95,7 @@ _A curated collection of my projects, skills, and experiences. Built with care, 
   ::
 ::
 
-:read-more{title="My Projects" to="#" icon="lucide:rocket"}
+:read-more{title="My Projects" to="/projects" icon="lucide:rocket"}
 
 :spacer
 

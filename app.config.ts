@@ -34,19 +34,19 @@ export default defineAppConfig({
                     links: [
                         {
                             title: "Projects",
-                            to: "#",
-                            description: "Start building your document with shadcn-docs-nuxt",
+                            to: "/projects",
+                            description: "A brief overview of my projects and the journey behind them.",
                             icon: "lucide:rocket"
                         },
                         {
                             title: "Tools",
-                            to: "#",
+                            to: "/tools",
                             description: "Explore available UI components and usage examples.",
                             icon: "lucide:wrench"
                         },
                         {
                             title: "Life",
-                            to: "/api/configuration/shadcn-docs",
+                            to: "/about-me",
                             description: "Discover the configurations and exposed APIs.",
                             icon: "lucide:sprout"
                         }
@@ -57,16 +57,14 @@ export default defineAppConfig({
                     links: [
                         {
                             title: "Needlify",
-                            to: "#",
+                            to: "/projects/needlify",
                             description: "For the beautiful component design & docs design",
-                            target: "_blank",
                             icon: "lucide:notebook-pen"
                         },
                         {
                             title: "Meeio",
-                            to: "#",
+                            to: "/projects/meeio",
                             description: "For the vue port of shadcn-ui & some docs component source",
-                            target: "_blank",
                             icon: "lucide:brain"
                         }
                     ]
